@@ -33,6 +33,3 @@ def triplet_to_sentence(title, triplet):
     return gpt4_response
 
 
-# print(extract_triplet("（AC米兰，赢得，欧洲冠军联赛冠军，意大利的俱乐部）",
-#                       "意大利的俱乐部，如AC米兰和尤文图斯等，也曾多次赢得欧洲冠军联赛冠军。"))
-

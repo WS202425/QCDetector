@@ -85,4 +85,3 @@ def get_Correctness_and_revise_sentence(sentence):
     return Correctness, revise_sentence
 
 
-# print(get_Correctness_and_revise_sentence("佩尔修斯杀死了怪物美杜莎"))

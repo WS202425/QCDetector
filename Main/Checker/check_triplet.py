@@ -60,21 +60,6 @@ correct_triplet_PROMPT = \
 """
 
 
-# def parse_check_triplet(text):
-#     pattern_list = r"### triplet:\n(\[.*?\])"
-#     match_list = re.search(pattern_list, text)
-#     if match_list:
-#         # 提取列表字符串
-#         list_str = match_list.group(1)
-#
-#         # 将字符串表示的列表转换成Python列表
-#         try:
-#             list_obj = ast.literal_eval(list_str)
-#             for item in list_obj:
-#                 # 对列表中的每个元素（四元组字符串）进行进一步处理
-#                 return item
-#         except ValueError as e:
-#             print("列表字符串解析错误:", e)
 
 
 def parse_correct_triple(text):
@@ -107,10 +92,3 @@ def correct_triplet(title, triplet1, triplet2):
     return gpt4_sentence
 
 
-# print(check_triplet(
-#                     ["李世民，是，唐朝真正的开国君主，",
-#                      "李渊，是，唐朝真正的开国君主，"]))
-
-# print(correct_triplet("《林海雪原》中的人物设置和模式",
-#                       ['《林海雪原》，承袭了，传统文学作品中的“英雄/美人”模式，人物设置'],
-#                       ['《林海雪原》，承袭了，传统文学作品中的“文武双全”模式，人物设置']))

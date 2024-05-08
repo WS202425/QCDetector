@@ -37,5 +37,3 @@ def get_reverse_sentence(sentence):
     gpt4_response = generate_response(prompt)
     return gpt4_response
 
-
-# print(get_reverse_sentence("他是唐太宗李世民与文皇后萧氏之长子"))

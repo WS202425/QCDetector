@@ -68,14 +68,3 @@ def extract_triplet(title, sentence):
     return "No valid triplet found after multiple attempts"
 
 
-# for a in safa:
-#     print(a)
-# （《林海雪原》，承袭了，传统文学作品中的“英雄/美人”模式，人物设置）
-#
-# a = extract_triplet("艾伯特亲王",
-#                     "艾伯特亲王（1839-1902）是德国王子，也是英国女王维多利亚的丈夫。")
-#
-# print(a)
-# print(a)
-# print(len(a))
-# print(type(a))
